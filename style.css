@@ -113,3 +113,39 @@
     font-weight: 800;
     text-align: center;
 }
+.location
+{
+    width: 19.12rem;
+    height: 3.7rem;
+    top: 0.5rem;
+}
+.location .input-group-text
+{
+    border-radius: 15px;
+    background-color: #fff;
+    color: #FF5200;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.location .form-control{
+    border: none;
+    font-size: 0.9rem;
+    box-shadow: none;
+}
+.location .form-control:hover
+{
+    box-shadow: none;
+    border: none;
+}
+.search
+{
+    width: 19.12rem;
+    height: 3.7rem;
+    top: 0.5rem;
+    margin-left: 1rem;
+}
+.main_content_box
+{
+    display: flex;
+    justify-content: center;
+}
