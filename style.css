@@ -10,10 +10,10 @@
 .main
 {
     background-color: #FF5200;
-    position: relative;
-    min-height: 73rem;
-    left: 0;
-    overflow: hidden;
+}
+.main_content
+{
+    display: flex;
 }
 .dishes
 {
@@ -25,7 +25,6 @@
 .header
 {
     color:#fff;
-    background-color: #FF5200;
     width:100%;
     font-weight: 700;
     height:7.375rem;
@@ -87,29 +86,21 @@
     font-weight: 800;
     text-decoration: none;
 }
-
-.main_content_img
-{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.veggies img
+.veggies
 {
     width:15rem;
     height:30rem;
+    left: 0;
+    position:absolute;
 }
-.sushi img
+.sushi
 {
     width:15rem;
     height:30rem;
-}
-.main_content_text
-{
-   position: absolute;
-   top: 13rem;
-   left: 20rem;
-   right: 20rem;
+    right: 0;
+    top: 0;
+    margin-top: 7rem;
+    position: absolute;
 }
 .main_content_text h1
 {
@@ -117,6 +108,10 @@
     font-size: 3rem;
     font-weight: 800;
     text-align: center;
+    width: 70%;
+    margin-left: 15rem;
+    margin-top: 4rem;
+    letter-spacing: -0.35px;
 }
 .location
 {
@@ -176,6 +171,13 @@
     display: flex;
     justify-content: center;
 }
+.cards_food
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
 .card-content
 {
     display: flex;
@@ -183,21 +185,21 @@
 }
 .card
 {
-    width: 20.375rem;
-    height: 18.79125rem;
+    width: 21rem;
+    height: 19rem;
     border-radius: 2rem;
     margin-top: 2rem;
 }
 .img-card img
 {
     width: 10rem;
+    height: min-content;
 }
 .img-card
 {
     display: flex;
     flex-direction: row-reverse;
     justify-content:space-between;
-    align-content: flex-start;
 }
 .card-text
 {
@@ -223,4 +225,12 @@
 {
     font-size: 2rem;
     font-weight: 900;
+}
+.card_1, .card_2
+{
+    margin-right: 5rem;
+}
+.card-title
+{
+    padding-top: 0.5rem;
 }
